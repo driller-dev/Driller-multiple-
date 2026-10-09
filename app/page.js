@@ -20,7 +20,7 @@ export default function Page() {
         </div>
         <div style={{marginTop:'50px', background:'#22c55e', color:'black', padding:'24px', borderRadius:'16px'}}>
           <h2>Contact Us - Ibadan</h2>
-          <p>Call/WhatsApp: Your Number</p>
+          <p>Call/WhatsApp: 09020502875</p>
         </div>
       </div>
     </main>
