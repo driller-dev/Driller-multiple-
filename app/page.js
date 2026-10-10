@@ -1,15 +1,24 @@
 export default function Home() {
   return (
-    <main style={{minHeight: '100vh', background: '#f0f9ff', fontFamily: 'sans-serif', padding: 20}}>
-      <div style={{maxWidth: 500, margin: '0 auto', background: 'white', borderRadius: 20, padding: 30}}>
-        <h1 style={{fontSize: 40, textAlign: 'center'}}>🚀 TOP GO</h1>
-        <div style={{background: '#1e40af', color: 'white', padding: 20, borderRadius: 15, marginTop: 20, textAlign: 'center'}}>
-          <h2>🚔 POLICE APP</h2>
+    <main style={{minHeight: '100vh', background: '#ffffff', fontFamily: 'sans-serif', padding: 20, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+      <div style={{maxWidth: 600, width: '100%', textAlign: 'center'}}>
+        
+        <h1 style={{fontSize: 70, fontWeight: 900, margin: 0, letterSpacing: -2}}>TOP GO</h1>
+        <p style={{fontSize: 20, color: '#666', marginTop: 10}}>Create Any App You Want</p>
+        
+        <div style={{marginTop: 50, background: '#f8f9fa', padding: 30, borderRadius: 20}}>
+          <h2 style={{margin: 0}}>Welcome to TOP GO 🚀</h2>
+          <p style={{color: '#555', marginTop: 15, lineHeight: 1.6}}>
+            Your platform to create popular apps easily.
+            Build any type of app - business, social, tools, anything!
+          </p>
+          
+          <button style={{marginTop: 25, padding: '16px 40px', background: 'black', color: 'white', border: 'none', borderRadius: 50, fontSize: 18, fontWeight: 'bold'}}>
+            Start Creating →
+          </button>
         </div>
-        <button style={{width: '100%', padding: 18, background: '#dc2626', color: 'white', border: 'none', borderRadius: 12, marginTop: 20, fontSize: 18, fontWeight: 'bold'}}>🚨 EMERGENCY CALL</button>
-        <button style={{width: '100%', padding: 18, background: '#16a34a', color: 'white', border: 'none', borderRadius: 12, marginTop: 10}}>📍 Report Crime</button>
-        <button style={{width: '100%', padding: 18, background: '#2563eb', color: 'white', border: 'none', borderRadius: 12, marginTop: 10}}>📝 Report Incident</button>
-        <p style={{textAlign: 'center', marginTop: 20, color: '#888'}}>Powered by TOP GO</p>
+
+        <p style={{marginTop: 40, color: '#999', fontSize: 14}}>TOP GO - Simple. Fast. Any App.</p>
       </div>
     </main>
   );
