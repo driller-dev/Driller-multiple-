@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "TOP GO - Borehole Drilling Ibadan",
+  title: "TOP GO",
   description: "Best Borehole Drilling in Ibadan - Call 09020502875 - TOP GO Drilling Services",
 };
 
