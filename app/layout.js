@@ -1,12 +1,14 @@
+import "./globals.css";
+
 export const metadata = {
-  title: "Multiple Driller",
-  description: "Multiple Driller Site",
+  title: "TOP GO - Borehole Drilling Ibadan",
+  description: "Best Borehole Drilling in Ibadan - Call 09020502875 - TOP GO Drilling Services",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{margin:0, fontFamily:'system-ui, sans-serif'}}>{children}</body>
+      <body>{children}</body>
     </html>
   );
-}
+    }
