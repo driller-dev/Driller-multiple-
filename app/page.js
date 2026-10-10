@@ -1,28 +1,16 @@
-export default function Page() {
+export default function Home() {
   return (
-    <main style={{padding:'20px', maxWidth:'900px', margin:'0 auto', background:'#0a0a0a', color:'white', minHeight:'100vh'}}>
-      <div style={{textAlign:'center', padding:'60px 20px'}}>
-        <h1 style={{fontSize:'48px', fontWeight:'bold', color:'#22c55e'}}>Multiple Driller</h1>
-        <p style={{fontSize:'20px', color:'#aaa', marginTop:'10px'}}>Professional Water Drilling & Borehole Services</p>
-        <div style={{marginTop:'40px', display:'grid', gap:'20px'}}>
-          <div style={{background:'#171717', padding:'24px', borderRadius:'16px', border:'1px solid #333'}}>
-            <h3 style={{fontSize:'20px'}}>💧 Borehole Drilling</h3>
-            <p style={{color:'#888'}}>Deep wells for homes, farms, industries</p>
-          </div>
-          <div style={{background:'#171717', padding:'24px', borderRadius:'16px', border:'1px solid #333'}}>
-            <h3 style={{fontSize:'20px'}}>🔧 Pump Installation</h3>
-            <p style={{color:'#888'}}>Submersible pumps and water treatment</p>
-          </div>
-          <div style={{background:'#171717', padding:'24px', borderRadius:'16px', border:'1px solid #333'}}>
-            <h3 style={{fontSize:'20px'}}>🛠️ Maintenance</h3>
-            <p style={{color:'#888'}}>Fast repair across Nigeria</p>
-          </div>
+    <main style={{minHeight: '100vh', background: '#f0f9ff', fontFamily: 'sans-serif', padding: 20}}>
+      <div style={{maxWidth: 500, margin: '0 auto', background: 'white', borderRadius: 20, padding: 30}}>
+        <h1 style={{fontSize: 40, textAlign: 'center'}}>🚀 TOP GO</h1>
+        <div style={{background: '#1e40af', color: 'white', padding: 20, borderRadius: 15, marginTop: 20, textAlign: 'center'}}>
+          <h2>🚔 POLICE APP</h2>
         </div>
-        <div style={{marginTop:'50px', background:'#22c55e', color:'black', padding:'24px', borderRadius:'16px'}}>
-          <h2>Contact Us - Ibadan</h2>
-          <p>Call/WhatsApp: <a href="https://wa.me/2349020502875" style={{color:'white', fontWeight:'bold', textDecoration:'underline'}}>09020502875 - Tap to Chat on WhatsApp</a></p>
-        </div>
+        <button style={{width: '100%', padding: 18, background: '#dc2626', color: 'white', border: 'none', borderRadius: 12, marginTop: 20, fontSize: 18, fontWeight: 'bold'}}>🚨 EMERGENCY CALL</button>
+        <button style={{width: '100%', padding: 18, background: '#16a34a', color: 'white', border: 'none', borderRadius: 12, marginTop: 10}}>📍 Report Crime</button>
+        <button style={{width: '100%', padding: 18, background: '#2563eb', color: 'white', border: 'none', borderRadius: 12, marginTop: 10}}>📝 Report Incident</button>
+        <p style={{textAlign: 'center', marginTop: 20, color: '#888'}}>Powered by TOP GO</p>
       </div>
     </main>
   );
-}
+                  }
